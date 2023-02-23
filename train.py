@@ -78,13 +78,10 @@ def main(args):
             train_loss_values.append(loss.item())
             
             if epoch % 100 == 0:
-                train_auc = roc_auc(y, pred)
-                train_auc_values.append(train_auc)
                 logger.info(
-                    "Train Epoch: {} Loss: {:.6f} , AUC: {}".format(
+                    "Train Epoch: {} Loss: {:.6f} ".format(
                         epoch,
                         loss.item(),
-                        train_auc
                     )
                 )
                 
