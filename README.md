@@ -31,3 +31,5 @@ XGboost instructions and data can be found here: https://sagemaker-examples.read
 Cheers !
 
 
+PS: After a bit of tweaking and HPT here and there, I'm 90% sure that the dataset is just lacking normalization and that's the key reason why a decision tree like XGBoost works better out of the box.
+
