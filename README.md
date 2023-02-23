@@ -20,7 +20,7 @@ The notebook is in 3 Parts (I will document them more later, or at least I'll tr
 
 The code does not have at this moment any Inference code. It would not be so difficult to develop but it was not my primary focus. 
 It doesn't even save the model. 
-So you will see how the training did but you want be able to do anything with it at the moment. 
+So you will see how the training did but you wont be able to do anything with it at the moment. 
 
 I will implement that last bit when I have the time. 
 
