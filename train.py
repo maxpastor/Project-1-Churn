@@ -49,15 +49,6 @@ def main(args):
                 nn.Linear(num_neurons, num_neurons),
                 nn.Dropout(p=dropout_value),
                 nn.LeakyReLU(),
-                nn.Linear(num_neurons, num_neurons),
-                nn.Dropout(p=dropout_value),
-                nn.LeakyReLU(),
-                nn.Linear(num_neurons, num_neurons),
-                nn.Dropout(p=dropout_value),
-                nn.LeakyReLU(),
-                nn.Linear(num_neurons, num_neurons),
-                nn.Dropout(p=dropout_value),
-                nn.LeakyReLU(),
                 nn.Linear(num_neurons, 1),
                 nn.Sigmoid()
         )
